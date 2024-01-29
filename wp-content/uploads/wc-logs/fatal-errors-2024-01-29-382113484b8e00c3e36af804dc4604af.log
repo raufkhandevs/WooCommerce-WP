@@ -1,0 +1,125 @@
+2024-01-29T13:12:32+00:00 CRITICAL Uncaught Error: Class "Carbon_Fields\Carbon_Fields" not found in C:\wamp64\www\woocommerce-wp\wp-content\plugins\carbon-fields-plugin\carbon-fields-plugin.php:25
+Stack trace:
+#0 C:\wamp64\www\woocommerce-wp\wp-includes\class-wp-hook.php(324): carbon_fields_boot_plugin('')
+#1 C:\wamp64\www\woocommerce-wp\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\wamp64\www\woocommerce-wp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\wamp64\www\woocommerce-wp\wp-settings.php(621): do_action('after_setup_the...')
+#4 C:\wamp64\www\woocommerce-wp\wp-config.php(96): require_once('C:\\wamp64\\www\\w...')
+#5 C:\wamp64\www\woocommerce-wp\wp-load.php(50): require_once('C:\\wamp64\\www\\w...')
+#6 C:\wamp64\www\woocommerce-wp\wp-admin\admin.php(34): require_once('C:\\wamp64\\www\\w...')
+#7 C:\wamp64\www\woocommerce-wp\wp-admin\plugins.php(10): require_once('C:\\wamp64\\www\\w...')
+#8 {main}
+  thrown in C:\wamp64\www\woocommerce-wp\wp-content\plugins\carbon-fields-plugin\carbon-fields-plugin.php on line 25
+
+2024-01-29T13:12:48+00:00 CRITICAL Uncaught Error: Class "Carbon_Fields\Carbon_Fields" not found in C:\wamp64\www\woocommerce-wp\wp-content\plugins\carbon-fields-plugin\carbon-fields-plugin.php:25
+Stack trace:
+#0 C:\wamp64\www\woocommerce-wp\wp-includes\class-wp-hook.php(324): carbon_fields_boot_plugin('')
+#1 C:\wamp64\www\woocommerce-wp\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\wamp64\www\woocommerce-wp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\wamp64\www\woocommerce-wp\wp-settings.php(621): do_action('after_setup_the...')
+#4 C:\wamp64\www\woocommerce-wp\wp-config.php(96): require_once('C:\\wamp64\\www\\w...')
+#5 C:\wamp64\www\woocommerce-wp\wp-load.php(50): require_once('C:\\wamp64\\www\\w...')
+#6 C:\wamp64\www\woocommerce-wp\wp-admin\admin.php(34): require_once('C:\\wamp64\\www\\w...')
+#7 C:\wamp64\www\woocommerce-wp\wp-admin\plugins.php(10): require_once('C:\\wamp64\\www\\w...')
+#8 {main}
+  thrown in C:\wamp64\www\woocommerce-wp\wp-content\plugins\carbon-fields-plugin\carbon-fields-plugin.php on line 25
+
+2024-01-29T13:12:50+00:00 CRITICAL Uncaught Error: Class "Carbon_Fields\Carbon_Fields" not found in C:\wamp64\www\woocommerce-wp\wp-content\plugins\carbon-fields-plugin\carbon-fields-plugin.php:25
+Stack trace:
+#0 C:\wamp64\www\woocommerce-wp\wp-includes\class-wp-hook.php(324): carbon_fields_boot_plugin('')
+#1 C:\wamp64\www\woocommerce-wp\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\wamp64\www\woocommerce-wp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\wamp64\www\woocommerce-wp\wp-settings.php(621): do_action('after_setup_the...')
+#4 C:\wamp64\www\woocommerce-wp\wp-config.php(96): require_once('C:\\wamp64\\www\\w...')
+#5 C:\wamp64\www\woocommerce-wp\wp-load.php(50): require_once('C:\\wamp64\\www\\w...')
+#6 C:\wamp64\www\woocommerce-wp\wp-admin\admin.php(34): require_once('C:\\wamp64\\www\\w...')
+#7 C:\wamp64\www\woocommerce-wp\wp-admin\plugins.php(10): require_once('C:\\wamp64\\www\\w...')
+#8 {main}
+  thrown in C:\wamp64\www\woocommerce-wp\wp-content\plugins\carbon-fields-plugin\carbon-fields-plugin.php on line 25
+
+2024-01-29T13:12:52+00:00 CRITICAL Uncaught Error: Class "Carbon_Fields\Carbon_Fields" not found in C:\wamp64\www\woocommerce-wp\wp-content\plugins\carbon-fields-plugin\carbon-fields-plugin.php:25
+Stack trace:
+#0 C:\wamp64\www\woocommerce-wp\wp-includes\class-wp-hook.php(324): carbon_fields_boot_plugin('')
+#1 C:\wamp64\www\woocommerce-wp\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\wamp64\www\woocommerce-wp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\wamp64\www\woocommerce-wp\wp-settings.php(621): do_action('after_setup_the...')
+#4 C:\wamp64\www\woocommerce-wp\wp-config.php(96): require_once('C:\\wamp64\\www\\w...')
+#5 C:\wamp64\www\woocommerce-wp\wp-load.php(50): require_once('C:\\wamp64\\www\\w...')
+#6 C:\wamp64\www\woocommerce-wp\wp-admin\admin.php(34): require_once('C:\\wamp64\\www\\w...')
+#7 C:\wamp64\www\woocommerce-wp\wp-admin\plugins.php(10): require_once('C:\\wamp64\\www\\w...')
+#8 {main}
+  thrown in C:\wamp64\www\woocommerce-wp\wp-content\plugins\carbon-fields-plugin\carbon-fields-plugin.php on line 25
+
+2024-01-29T13:14:38+00:00 CRITICAL Uncaught Error: Class "Carbon_Fields\Carbon_Fields" not found in C:\wamp64\www\woocommerce-wp\wp-content\plugins\carbon-fields-plugin\carbon-fields-plugin.php:25
+Stack trace:
+#0 C:\wamp64\www\woocommerce-wp\wp-includes\class-wp-hook.php(324): carbon_fields_boot_plugin('')
+#1 C:\wamp64\www\woocommerce-wp\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\wamp64\www\woocommerce-wp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\wamp64\www\woocommerce-wp\wp-settings.php(621): do_action('after_setup_the...')
+#4 C:\wamp64\www\woocommerce-wp\wp-config.php(96): require_once('C:\\wamp64\\www\\w...')
+#5 C:\wamp64\www\woocommerce-wp\wp-load.php(50): require_once('C:\\wamp64\\www\\w...')
+#6 C:\wamp64\www\woocommerce-wp\wp-admin\admin.php(34): require_once('C:\\wamp64\\www\\w...')
+#7 C:\wamp64\www\woocommerce-wp\wp-admin\plugins.php(10): require_once('C:\\wamp64\\www\\w...')
+#8 {main}
+  thrown in C:\wamp64\www\woocommerce-wp\wp-content\plugins\carbon-fields-plugin\carbon-fields-plugin.php on line 25
+
+2024-01-29T13:14:42+00:00 CRITICAL Uncaught Error: Class "Carbon_Fields\Carbon_Fields" not found in C:\wamp64\www\woocommerce-wp\wp-content\plugins\carbon-fields-plugin\carbon-fields-plugin.php:25
+Stack trace:
+#0 C:\wamp64\www\woocommerce-wp\wp-includes\class-wp-hook.php(324): carbon_fields_boot_plugin('')
+#1 C:\wamp64\www\woocommerce-wp\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\wamp64\www\woocommerce-wp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\wamp64\www\woocommerce-wp\wp-settings.php(621): do_action('after_setup_the...')
+#4 C:\wamp64\www\woocommerce-wp\wp-config.php(96): require_once('C:\\wamp64\\www\\w...')
+#5 C:\wamp64\www\woocommerce-wp\wp-load.php(50): require_once('C:\\wamp64\\www\\w...')
+#6 C:\wamp64\www\woocommerce-wp\wp-admin\admin.php(34): require_once('C:\\wamp64\\www\\w...')
+#7 C:\wamp64\www\woocommerce-wp\wp-admin\plugins.php(10): require_once('C:\\wamp64\\www\\w...')
+#8 {main}
+  thrown in C:\wamp64\www\woocommerce-wp\wp-content\plugins\carbon-fields-plugin\carbon-fields-plugin.php on line 25
+
+2024-01-29T13:14:57+00:00 CRITICAL Uncaught Error: Class "Carbon_Fields\Carbon_Fields" not found in C:\wamp64\www\woocommerce-wp\wp-content\plugins\carbon-fields-plugin\carbon-fields-plugin.php:25
+Stack trace:
+#0 C:\wamp64\www\woocommerce-wp\wp-includes\class-wp-hook.php(324): carbon_fields_boot_plugin('')
+#1 C:\wamp64\www\woocommerce-wp\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\wamp64\www\woocommerce-wp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\wamp64\www\woocommerce-wp\wp-settings.php(621): do_action('after_setup_the...')
+#4 C:\wamp64\www\woocommerce-wp\wp-config.php(96): require_once('C:\\wamp64\\www\\w...')
+#5 C:\wamp64\www\woocommerce-wp\wp-load.php(50): require_once('C:\\wamp64\\www\\w...')
+#6 C:\wamp64\www\woocommerce-wp\wp-admin\admin.php(34): require_once('C:\\wamp64\\www\\w...')
+#7 C:\wamp64\www\woocommerce-wp\wp-admin\plugins.php(10): require_once('C:\\wamp64\\www\\w...')
+#8 {main}
+  thrown in C:\wamp64\www\woocommerce-wp\wp-content\plugins\carbon-fields-plugin\carbon-fields-plugin.php on line 25
+
+2024-01-29T13:16:56+00:00 CRITICAL Uncaught Error: Call to undefined method Container::make() in C:\wamp64\www\woocommerce-wp\wp-content\themes\emerge\functions.php:22
+Stack trace:
+#0 C:\wamp64\www\woocommerce-wp\wp-includes\class-wp-hook.php(324): custom_product_pdf_field('')
+#1 C:\wamp64\www\woocommerce-wp\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\wamp64\www\woocommerce-wp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\wamp64\www\woocommerce-wp\wp-content\plugins\carbon-fields\vendor\htmlburger\carbon-fields\core\Loader\Loader.php(113): do_action('carbon_fields_r...')
+#4 C:\wamp64\www\woocommerce-wp\wp-includes\class-wp-hook.php(324): Carbon_Fields\Loader\Loader->trigger_fields_register('')
+#5 C:\wamp64\www\woocommerce-wp\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\wamp64\www\woocommerce-wp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\wamp64\www\woocommerce-wp\wp-settings.php(643): do_action('init')
+#8 C:\wamp64\www\woocommerce-wp\wp-config.php(96): require_once('C:\\wamp64\\www\\w...')
+#9 C:\wamp64\www\woocommerce-wp\wp-load.php(50): require_once('C:\\wamp64\\www\\w...')
+#10 C:\wamp64\www\woocommerce-wp\wp-admin\admin.php(34): require_once('C:\\wamp64\\www\\w...')
+#11 C:\wamp64\www\woocommerce-wp\wp-admin\post-new.php(10): require_once('C:\\wamp64\\www\\w...')
+#12 {main}
+  thrown in C:\wamp64\www\woocommerce-wp\wp-content\themes\emerge\functions.php on line 22
+
+2024-01-29T13:17:17+00:00 CRITICAL Uncaught Error: Call to undefined method Container::make() in C:\wamp64\www\woocommerce-wp\wp-content\themes\emerge\functions.php:22
+Stack trace:
+#0 C:\wamp64\www\woocommerce-wp\wp-includes\class-wp-hook.php(324): custom_product_pdf_field('')
+#1 C:\wamp64\www\woocommerce-wp\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\wamp64\www\woocommerce-wp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\wamp64\www\woocommerce-wp\wp-content\plugins\carbon-fields\vendor\htmlburger\carbon-fields\core\Loader\Loader.php(113): do_action('carbon_fields_r...')
+#4 C:\wamp64\www\woocommerce-wp\wp-includes\class-wp-hook.php(324): Carbon_Fields\Loader\Loader->trigger_fields_register('')
+#5 C:\wamp64\www\woocommerce-wp\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\wamp64\www\woocommerce-wp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\wamp64\www\woocommerce-wp\wp-settings.php(643): do_action('init')
+#8 C:\wamp64\www\woocommerce-wp\wp-config.php(96): require_once('C:\\wamp64\\www\\w...')
+#9 C:\wamp64\www\woocommerce-wp\wp-load.php(50): require_once('C:\\wamp64\\www\\w...')
+#10 C:\wamp64\www\woocommerce-wp\wp-admin\admin.php(34): require_once('C:\\wamp64\\www\\w...')
+#11 C:\wamp64\www\woocommerce-wp\wp-admin\post-new.php(10): require_once('C:\\wamp64\\www\\w...')
+#12 {main}
+  thrown in C:\wamp64\www\woocommerce-wp\wp-content\themes\emerge\functions.php on line 22
+
