@@ -1,0 +1,147 @@
+/*!
+Theme Name: Emerge
+Theme URI: http://themepalace.com/downloads/emerge
+Author: Moral Themes
+Author URI: https://moralthemes.com
+Description: Emerge is a clean, responsive theme that is versatile and easy to use. Suitable for both corporate and creative businesses, this elegant design gives you maximum flexibility. If the thought of theme customization makes you nervous, you can rest assured knowing that the customization API integration helps to build pages without even looking at code. The extensive documentation also comes with snapshots and step-by-step instructions so you can get your site set up and running quickly and customized to your exact style. Also the integration with One Click Demo Importer lets you import demos in a jiffy and you can customize the demo data as per your need.
+Version: 1.1.8
+Requires PHP: 5.6
+Tested up to: 5.8
+Requires at least: 5.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: emerge
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, two-columns, right-sidebar, custom-colors, editor-style, footer-widgets, sticky-post, theme-options, blog, portfolio, news
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Emerge is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Typography
+# Elements
+# Forms
+# Navigation
+	## Links
+	## Menus
+# Accessibility
+# Alignments
+# Clearings
+# Widgets
+# Content
+	## Posts and pages
+	## Comments
+# Infinite scroll
+# Media
+	## Captions
+	## Galleries
+# Layout
+# Sections
+	## Header image
+--------------------------------------------------------------*/
+@import "assets/sass/variables-site/variables-site";
+@import "assets/sass/mixins/mixins-master";
+
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+@import "assets/sass/normalize";
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+@import "assets/sass/typography/typography";
+
+/*--------------------------------------------------------------
+# Elements
+--------------------------------------------------------------*/
+@import "assets/sass/elements/elements";
+
+/*--------------------------------------------------------------
+# Forms
+--------------------------------------------------------------*/
+@import "assets/sass/forms/forms";
+
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+@import "assets/sass/navigation/navigation";
+
+/*--------------------------------------------------------------
+# Accessibility
+--------------------------------------------------------------*/
+@import "assets/sass/modules/accessibility";
+
+/*--------------------------------------------------------------
+# Alignments
+--------------------------------------------------------------*/
+@import "assets/sass/modules/alignments";
+
+/*--------------------------------------------------------------
+# Clearings
+--------------------------------------------------------------*/
+@import "assets/sass/modules/clearings";
+
+/*--------------------------------------------------------------
+# Widgets
+--------------------------------------------------------------*/
+@import "assets/sass/site/secondary/widgets";
+
+/*--------------------------------------------------------------
+# Content
+--------------------------------------------------------------*/
+@import "assets/sass/site/site";
+
+/*--------------------------------------------------------------
+# Infinite scroll
+--------------------------------------------------------------*/
+@import "assets/sass/modules/infinite-scroll";
+
+/*--------------------------------------------------------------
+# Media
+--------------------------------------------------------------*/
+@import "assets/sass/media/media";
+
+/*--------------------------------------------------------------
+# Layout
+--------------------------------------------------------------*/
+@import "assets/sass/layout/layout";
+
+/*--------------------------------------------------------------
+# Sections
+--------------------------------------------------------------*/
+@import "assets/sass/sections/sections";
+
+/*--------------------------------------------------------------
+# Social Icons
+--------------------------------------------------------------*/
+@import "assets/sass/social-icons/social-icons";
+
+/*--------------------------------------------------------------
+# Breadcrumb
+--------------------------------------------------------------*/
+@import "assets/sass/breadcrumb/breadcrumb";
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+@import "assets/sass/footer/footer";
+
+/*--------------------------------------------------------------
+# Responsive
+--------------------------------------------------------------*/
+@import "assets/sass/responsive/responsive";
+
+
+
+
+

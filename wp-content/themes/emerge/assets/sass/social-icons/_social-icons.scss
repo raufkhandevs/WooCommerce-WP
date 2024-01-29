@@ -1,0 +1,175 @@
+/*--------------------------------------------------------------
+## Social Icons
+--------------------------------------------------------------*/
+.social-icons li {
+    display: inline-block;
+    height: auto;
+    text-align: center;
+    position: relative;
+    list-style: none;
+}
+.social-icons,
+.social-icons ul {
+    margin: 0;
+    padding: 0;
+}
+.social-icons li a {
+    width: 45px;
+    height: 45px;
+    line-height: 50px;
+    display: block;
+    border-radius: 50%;
+}
+.social-icons a:focus {
+	outline: none;
+}
+.social-icons li a:hover svg,
+.social-icons li a:focus svg {
+	fill: #fff;
+}
+.social-icons li a:hover svg,
+.social-icons li a:focus svg {
+	fill: #fff;
+}
+.social-icons li a svg {
+    fill: rgba(255, 255, 255, 0.50);
+    width: 20px;
+    height: 20px;
+}
+/*--------------------------------------------------------------
+## Social Icons Hover Color
+--------------------------------------------------------------*/
+.social-icons li a[href*="facebook.com"]:hover svg,
+.social-icons li a[href*="fb.com"]:hover svg,
+.social-icons li a[href*="facebook.com"]:focus svg,
+.social-icons li a[href*="fb.com"]:focus svg {
+ 	fill: #3c5798 !important;
+}
+.social-icons li a[href*="twitter.com"]:hover svg,
+.social-icons li a[href*="twitter.com"]:focus svg {
+ 	fill: #1ea0f1 !important;
+}
+.social-icons li a[href*="linkedin.com"]:hover svg,
+.social-icons li a[href*="linkedin.com"]:focus svg {
+ 	fill: #0077B5 !important;
+}
+.social-icons li a[href*="plus.google.com"]:hover svg,
+.social-icons li a[href*="plus.google.com"]:focus svg {
+ 	fill: #ec7161 !important;
+}
+
+.social-icons li a[href*="youtube.com"]:hover svg,
+.social-icons li a[href*="youtube.com"]:focus svg {
+ 	fill: #cc181e !important;
+}
+
+.social-icons li a[href*="dribbble.com"]:hover svg,
+.social-icons li a[href*="dribbble.com"]:focus svg {
+ 	fill: #f4a09c !important;
+}
+
+.social-icons li a[href*="pinterest.com"]:hover svg,
+.social-icons li a[href*="pinterest.com"]:focus svg {
+ 	fill: #bd081b !important;
+}
+
+.social-icons li a[href*="bitbucket.org"]:hover svg,
+.social-icons li a[href*="bitbucket.org"]:focus svg {
+ 	fill: #205081 !important;
+}
+
+.social-icons li a[href*="github.com"]:hover svg,
+.social-icons li a[href*="github.com"]:focus svg {
+ 	fill: #323131 !important;
+}
+
+.social-icons li a[href*="codepen.io"]:hover svg,
+.social-icons li a[href*="codepen.io"]:focus svg {
+ 	fill: #000000 !important;
+}
+
+.social-icons li a[href*="flickr.com"]:hover svg,
+.social-icons li a[href*="flickr.com"]:focus svg {
+ 	fill: #025FDF !important;
+}
+
+.social-icons li a[href$="/feed/"]:hover svg,
+.social-icons li a[href$="/feed/"]:focus svg {
+ 	fill: #089DE3 !important;
+}
+
+.social-icons li a[href*="foursquare.com"]:hover svg,
+.social-icons li a[href*="foursquare.com"]:focus svg {
+ 	fill: #F94877 !important;
+}
+
+.social-icons li a[href*="instagram.com"]:hover svg,
+.social-icons li a[href*="instagram.com"]:focus svg {
+ 	fill: #cd42e7 !important;
+}
+
+.social-icons li a[href*="tumblr.com"]:hover svg,
+.social-icons li a[href*="tumblr.com"]:focus svg {
+ 	fill: #56BC8A !important;
+}
+
+.social-icons li a[href*="reddit.com"]:hover svg,
+.social-icons li a[href*="reddit.com"]:focus svg {
+ 	fill: #FF4500 !important;
+}
+
+.social-icons li a[href*="vimeo.com"]:hover svg,
+.social-icons li a[href*="vimeo.com"]:focus svg {
+ 	fill: #00ADEF !important;
+}
+
+.social-icons li a[href*="digg.com"]:hover svg,
+.social-icons li a[href*="digg.com"]:focus svg {
+ 	fill: #00ADEF !important;
+}
+
+.social-icons li a[href*="twitch.tv"]:hover svg,
+.social-icons li a[href*="twitch.tv"]:focus svg {
+ 	fill: #0E9DD9 !important;
+}
+
+.social-icons li a[href*="stumbleupon.com"]:hover svg,
+.social-icons li a[href*="stumbleupon.com"]:focus svg {
+ 	fill: #EB4924 !important;
+}
+
+.social-icons li a[href*="delicious.com"]:hover svg,
+.social-icons li a[href*="delicious.com"]:focus svg {
+ 	fill: #0076E8 !important;
+}
+
+.social-icons li a[href*="mailto:"]:hover svg,
+.social-icons li a[href*="mailto:"]:focus svg {
+ 	fill: #4169E1 !important;
+}
+.social-icons li a[href*="soundcloud.com"]:hover svg,
+.social-icons li a[href*="soundcloud.com"]:focus svg {
+ 	fill: #FF5500 !important;
+}
+.social-icons li a[href*="wordpress.org"]:hover svg,
+.social-icons li a[href*="wordpress.org"]:focus svg {
+ 	fill: #0073AA !important;
+}
+.social-icons li a[href*="wordpress.com"]:hover svg {
+ 	fill: #00AADC !important;
+}
+
+.social-icons li a[href*="jsfiddle.net"]:hover svg,
+.social-icons li a[href*="jsfiddle.net"]:focus svg {
+ 	fill: #396AB1 !important;
+}
+
+.social-icons li a[href*="tripadvisor.com"]:hover svg,
+.social-icons li a[href*="tripadvisor.com"]:focus svg {
+ 	fill: #FFE090 !important;
+}
+
+.social-icons li a[href*="angel.co"]:hover svg,
+.social-icons li a[href*="angel.co"]:focus svg {
+ 	fill: #000000 !important;
+}

@@ -1,0 +1,32 @@
+#call-to-action {
+    text-align: center;
+    padding: 100px 0;
+    background-size: cover;
+    background-position: 50%;
+
+    .wrapper {
+    	position: relative;
+
+    	.section-header {
+    		margin-bottom: 14px;
+
+    		.section-title {
+    			color: #fff;
+			    font-size: 20px;
+    			font-weight: $font__semi-bold;
+    		}
+    	}
+
+    	.section-content {
+		    color: #fff;
+
+            p {
+                margin: 0;
+            }
+		}
+    }
+}
+
+.dark-version #call-to-action {
+    @include grayscale;
+}

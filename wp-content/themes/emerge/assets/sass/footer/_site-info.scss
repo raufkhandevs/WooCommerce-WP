@@ -1,0 +1,55 @@
+.site-info {
+	padding: 10px 0;
+	text-align: center;
+	background-color: $color_background_footer-site-info;
+	font-family: $font__heading;
+	font-weight: $font__semi-bold;
+
+	.footer-copyright {
+		padding: 15px 0;
+
+		a {
+			&:hover,
+			&:focus {
+				color: $color_theme-color;
+				text-decoration: underline;
+			}
+		}
+	}
+
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+}
+
+.backtotop {
+    background-color: #cf3140;
+    border-radius: 50%;
+    z-index: 300;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    text-align: center;
+    position: fixed;
+    bottom: -100px;
+    right: 25px;
+    cursor: pointer;
+    -webkit-transition: all .7s ease-in-out;
+    -moz-transition: all .7s ease-in-out;
+    -o-transition: all .7s ease-in-out;
+    -ms-transition: all .7s ease-in-out;
+    transition: all .7s ease-in-out;
+    color: #fff;
+}
+.backtotop:hover {
+	border-radius: 0;
+}
+.backtotop svg {
+	fill: #fff;
+    overflow: visible;
+    width: 15px;
+    height: 15px;
+}

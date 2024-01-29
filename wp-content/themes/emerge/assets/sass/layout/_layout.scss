@@ -1,0 +1,129 @@
+.wrapper {
+	max-width: 1300px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.relative {
+	position: relative;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 30px;
+
+	.section-title {
+		font-size: 24px;
+		margin: 0 0 7px;
+	}
+	.section-subtitle {
+		color: $color__text-main;
+	    font-size: 14px;
+	    text-transform: uppercase;
+    	font-weight: 600;
+    	line-height: 1.8;
+	}
+}
+
+.page-section {
+	padding: 50px 0;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.5;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 16px 55px;
+    border: 1px solid;
+    border-color: $color_theme-color;
+    background-color: $color_theme-color;
+    color: #fff;
+    min-width: 182px;
+    min-height: 60px;
+    margin-top: 25px;
+    font-family: $font__heading;
+    font-weight: $font__semi-bold;
+    font-size: 16px;
+    @include transition;
+
+    &:hover,
+    &:focus {
+        background-color: #2e2e2e;
+        border-color: #2e2e2e;
+        color: #fff;
+    }
+}
+
+.btn-transparent {
+    background-color: rgba(255, 255, 255, 0.10);
+    border-color: rgba(255, 255, 255, 0.30);
+
+    &:hover,
+    &:focus {
+        background-color: $color_theme-color;
+        border-color: $color_theme-color;
+        color: #fff;
+    }
+}
+
+.btn-default {
+    border-color: rgba(0, 0, 0, 0.30);
+    background-color: #E5E5E5;
+    color: #2e2e2e;
+
+    &:hover,
+    &:focus {
+        background-color: $color_theme-color;
+        border-color: $color_theme-color;
+        color: #fff;
+    }
+}
+
+.btn-white {
+    background-color: #fff;
+    border-color: #fff;
+    color: $color_theme-color;
+
+    &:hover,
+    &:focus {
+        background-color: $color_theme-color;
+        border-color: $color_theme-color;
+        color: #fff;
+    }
+}
+.entry-meta {
+    margin-bottom: 14px;
+}
+
+.entry-meta > span {
+    font-weight: bold;
+}
+
+.entry-meta > span a {
+    color: $color__text-main;
+
+    &:hover,
+    &:focus {
+        color: $color_theme-color;
+    }
+}
+
+.entry-meta > span:not(:last-child):after {
+    content: "/";
+    padding-left: 3px;
+}

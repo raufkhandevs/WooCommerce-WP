@@ -1,0 +1,23 @@
+#about-us {
+	text-align: center;
+	
+	article {
+		.section-header {
+		    display: none;
+		} 
+		.entry-content p {
+			margin: 0;
+		}
+	}
+}
+
+.dark-version {
+	#about-us{
+		background-color: #fff;
+		
+		article .featured-image img {
+			-webkit-filter: grayscale(100%);
+			filter: grayscale(100%);
+		}
+	}
+}

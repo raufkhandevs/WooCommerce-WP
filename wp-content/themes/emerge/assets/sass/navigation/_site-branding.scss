@@ -1,0 +1,59 @@
+.site-branding {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    float: left;
+    text-align: left;
+
+    .site-logo {
+    	img {
+    		max-height: 70px;
+    		width: auto;
+            margin-right: 15px;
+    	}
+    }
+    .site-branding-text {
+	    .site-title {
+		    margin: 0;
+            font-family: $font__site-title;
+            font-weight: $font__regular;
+            line-height: 1.2;
+            font-size: 32px;
+
+            a {
+                color: #2e2e2e;
+            }
+		}
+		.site-description {
+		    margin: 20px 0 0;
+		    line-height: 1;
+            color: #2e2e2e;
+		}
+	}
+}
+
+.dark-version .site-branding .site-branding-text {
+    .site-title a {
+        color: #fff;
+    }
+    .site-description {
+        color: #fff;
+    }
+}
+.home.lite-version.absolute-header #masthead .site-branding .site-branding-text .site-title a, 
+.home.lite-version.absolute-header #masthead .site-branding .site-branding-text .site-description {
+    color: #fff;
+}
+.home.lite-version.absolute-header #masthead {
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+}
+span.menu-label {
+    display: none;
+}
+.home.lite-version.absolute-header #masthead .icon, 
+.home.lite-version.absolute-header #masthead .icon::before, 
+.home.lite-version.absolute-header #masthead .icon::after {
+    background-color: #fff;
+}

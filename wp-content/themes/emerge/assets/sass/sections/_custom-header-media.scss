@@ -1,0 +1,62 @@
+#custom-header-media {
+	.wp-custom-header {
+		height: 370px;
+		
+		img {
+			object-fit: cover;
+    		height: 370px;
+		    width: 100%;
+		}
+	}
+	
+ 	.entry-header {
+	    position: absolute;
+	    top: 50%;
+	    max-width: 80%;
+	    z-index: 1;
+	    @include translateY(-50%);
+
+	    .entry-title {
+	    	font-weight: 600;
+	    	margin-bottom: 0;
+	    	font-size: 24px;
+	    	color: #fff;
+	    	
+	    	a {
+	    		color: #fff;
+	    		display: block;
+
+	    		&:hover,
+				&:focus,
+				&:active {
+					opacity: 0.8;
+				}
+	    	}
+	    }
+	}
+}
+
+.lite-version #custom-header-media .overlay {
+    opacity: 0.3;
+    z-index: 1;
+}
+
+.dark-version {
+	#custom-header-media {
+		.overlay {
+		    opacity: 0.5;
+		    z-index: 1;
+		}
+
+		#wp-custom-header {
+			img	{
+				-webkit-filter: grayscale(100%);
+				filter: grayscale(100%);
+			}
+		}
+
+		.entry-header {
+			z-index: 1;
+		}
+	}
+}

@@ -1,0 +1,141 @@
+.blog-posts-wrapper {
+	article {
+		margin-bottom: 50px;
+		text-align: center;
+
+		.featured-image {
+    		position: relative;
+		    margin-bottom: 28px;
+
+    		img {
+    			width: 100%;
+    		}
+
+    		.overlay {
+			    opacity: 0;
+			    background-color: #fff;
+			    width: 100%;
+			    height: 100%;
+			    margin: auto;
+			    right: 0;
+			    bottom: 0;
+			    visibility: hidden;
+			    @include transition;
+    		}
+
+    		.read-more {
+			    position: absolute;
+			    left: 0;
+			    right: 0;
+			    top: 50%;
+			    transform: translateY(-50%);
+			    text-align: center;
+			    @include transition;
+			    visibility: hidden;
+			    opacity: 0;
+
+			    .btn {
+			    	margin-top: 0;
+			    }
+			}
+    	}
+
+    	.entry-container {
+    		.entry-title {
+    			font-size: 20px;
+    			font-weight: $font__semi-bold;
+    			margin-bottom: 14px;
+
+    			a {
+    				color: $color_theme-hover-color;
+
+    				&:hover,
+    				&:focus {
+    					color: $color_theme-color;
+    				}
+    			}
+    		}
+
+    		.entry-content {
+    			margin-top: 0;
+
+                p {
+                    margin: 0;
+                }
+    		}
+    	}
+    }
+
+    article:last-child {
+    	margin-bottom: 0;
+    }
+}
+
+.lite-version #latest-posts {
+	padding-bottom: 0;
+}
+
+.section-separator {
+    border-bottom: 1px solid #d8d8d8;
+    margin-top: 30px;
+}
+
+.dark-version {
+    background-color: #000;
+    
+    #latest-posts {
+        background-color: #000;
+
+        .section-header {
+            .section-title {
+                color: #fff;
+            }
+
+            .section-subtitle {
+                color: #fff;
+                opacity: 0.5;
+            }
+        }
+
+        .section-content {
+            .featured-image{
+                img {
+                    @include grayscale;
+                }
+                .overlay {
+                    background-color: #000;
+                }
+            }
+            .entry-container {
+                .entry-meta > span a {
+                    color: #fff;
+                    opacity: 0.5;
+
+                    &:hover,
+                    &:focus {
+                        color: $color_theme-color;
+                        opacity: 1;
+                    }
+                }
+
+                .entry-header .entry-title a {
+                    color: #fff;
+
+                    &:hover,
+                    &:focus {
+                        color: $color_theme-color;
+                    }
+                }
+
+                .entry-content {
+                    color: #fff;
+                    opacity: 0.5;
+                }
+            }
+        }
+
+        .section-separator {
+            display: none;
+        }
+    }
+}

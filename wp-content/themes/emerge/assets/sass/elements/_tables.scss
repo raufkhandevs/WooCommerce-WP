@@ -1,0 +1,35 @@
+table {
+	margin: 0 0 1.5em;
+	width: 100%;
+}
+table#wp-calendar {
+    display: inline-block;
+    width: 100%;
+    overflow-x: auto;
+}
+table#wp-calendar td, 
+table#wp-calendar th {
+    padding: 5px 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+table#wp-calendar caption {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline-block;
+}
+.site-footer table#wp-calendar caption {
+    color: #fff;
+}
+.site-footer table#wp-calendar td, 
+.site-footer table#wp-calendar th {
+    border: 1px solid #aaa;
+}
+#secondary table#wp-calendar tr {
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.dark-version tr {
+    border: 1px solid #666;
+}

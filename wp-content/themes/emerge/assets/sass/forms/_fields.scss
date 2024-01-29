@@ -1,0 +1,55 @@
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea {
+	border: 1px solid rgba(0, 0, 0, 0.50);
+	color: $color__text-input;
+	border-radius: 0;
+	padding: 15px;
+	height: 60px;
+    margin-top: 10px;
+    outline: none;
+    width: 100%;
+    font-family: $font__heading;
+
+	&:focus {
+		color: $color__text-input-focus;
+		border-color: $color_theme-color;
+	}
+}
+
+label {
+	color: $color__text-input;
+	font-family: $font__heading;
+	font-weight: $font__regular;
+}
+
+select {
+	border: 1px solid $color__border-input;
+}
+
+textarea {
+	width: 100%;
+	height: 250px;
+}
+
+.wpcf7 p {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.wpcf7 input[type="submit"] {
+    width: 100%;
+}

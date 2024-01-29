@@ -1,0 +1,131 @@
+#latest-portfolios {
+	.grid {
+	    margin: -5px;
+
+		.grid-item {
+		    width: 50%;
+		    float: left;
+		    padding: 5px;
+
+		    .grid-inner-wrapper {
+	    	    position: relative;
+	    	    overflow: hidden;
+
+	    	    .overlay {
+	    			opacity: 0;
+				    visibility: hidden;
+				    background-color: #fff;
+			    }
+
+	    	    img {
+	    	    	object-fit: cover;
+    	    	    width: 100%;
+	    	    }
+
+				.hover-item {
+				    position: absolute;
+				    text-align: center;
+				    left: 0;
+				    right: 0;
+				    width: 100%;
+				    bottom: 0;
+				    padding: 5px;
+			        background-color: rgba(255, 255, 255, 0.90);
+
+				    h5 {
+				    	font-size: 13px;
+					    position: relative;
+					    margin-bottom: 0;
+
+					    a {
+					    	color: #2e2e2e;
+
+					    	&:hover,
+					    	&:focus {
+				    		    color: #cf3140;
+					    	}
+					    }
+				    }
+
+				    p {
+				    	display: none;
+				    }
+				}
+			}
+		}
+
+		.grid-item:nth-child(1n) img { 
+			height: 200px;
+		}
+
+		.grid-item:nth-child(2n) img { 
+			height: 150px;
+		}
+
+		.grid-item:nth-child(3n) img { 
+			height: 150px;
+		}
+
+		.grid-item:nth-child(4n) img { 
+			height: 150px;
+		}
+
+		.grid-item:nth-child(5n) img { 
+			height: 200px;
+		}
+
+		.grid-item:nth-child(6n) img { 
+			height: 150px;
+		}
+	}
+}
+
+.dark-version #latest-portfolios {
+	background-color: #000;
+
+	.section-header {
+		.section-title {
+			color: #fff;
+		}
+		.section-subtitle {
+	        color: #fff;
+	        opacity: 0.5;
+	    }
+	}
+	
+	.grid {
+		.grid-item {
+			.grid-inner-wrapper {
+				.hover-item {
+					background-color: rgba(0, 0, 0, 0.70);
+					z-index: 1;
+
+					h5 a {
+						color: #fff;
+
+						&:hover,
+						&:focus {
+							color: $color_theme-color;
+						}
+					}
+				}
+
+				img {
+					@include grayscale;
+				}
+			}
+		}
+	}
+
+	.load-more .btn {
+		border-color: rgba(255, 255, 255, 0.30);
+		background-color: rgba(255, 255, 255, 0.10);
+    	color: #fff;
+
+    	&:hover,
+    	&:focus {
+    		background-color: $color_theme-color;
+    		border-color: $color_theme-color;
+    	}
+	}
+}

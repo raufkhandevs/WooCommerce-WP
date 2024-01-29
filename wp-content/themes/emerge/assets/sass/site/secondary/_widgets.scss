@@ -1,0 +1,244 @@
+.widget:not(:last-child) {
+	margin: 0 0 42px;
+
+	/* Make sure select elements fit in widgets. */
+	select {
+		max-width: 100%;
+	}
+}
+
+.widget-title {
+	font-size: 18px;
+    text-transform: uppercase;
+    font-weight: $font__semi-bold;
+    letter-spacing: 0.1em;
+}
+
+.widget_media_gallery .gallery-item {
+    margin: 0;
+    padding: 3px;
+}
+
+.widget_media_gallery div.gallery {
+    margin-left: -3px;
+    margin-right: -3px;
+}
+
+#secondary .widgettitle {
+    color: #fff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 28px;
+    text-transform: none;
+    font-size: 22px;
+    letter-spacing: 0;
+}
+
+svg.icon-search {
+    width: 16px;
+    height: 16px;
+    fill: #fff;
+}
+
+#subscribe-email input {
+	margin-top: 0;
+	border: none;
+}
+
+.search-form {
+	position: relative;
+
+	input.search-field {
+		margin-top: 0;
+		border: none;
+		padding-right: 70px;
+	}
+
+    button.search-submit {
+	    padding-left: 20px;
+	    padding-right: 20px;
+	    position: absolute;
+	    top: 0;
+	    right: 0;
+    }
+}
+
+.dark-version .search-form input.search-field,
+.dark-version #subscribe-email input {
+	background-color: #353535;
+	color: #fff;
+}
+.lite-version #secondary .widget-title,
+.lite-version #secondary .widgettitle {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding-bottom: 28px;
+    margin-bottom: 28px;
+    color: #2e2e2e;
+}
+#secondary {
+	padding: 30px 35px;
+    background-color: #efefef;
+    margin-top: 50px;
+
+	.widget-title {
+		text-transform: none;
+		font-size: 22px;
+	    letter-spacing: 0;
+	}
+
+	ul {
+	    list-style: none;
+	    margin: 0;
+	    padding: 0;
+
+	    li {
+	    	margin-bottom: 10px;
+	    }
+
+	    li.has-post-thumbnail {
+	    	.post-details {
+	    		padding-right: 100px;
+	    	}
+	    }
+
+		a {
+			color: #fff;
+
+			&:hover,
+		    &:focus {
+		    	color: $color_theme-color;
+		    }
+		}
+	}
+
+	.textwidget {
+		text-align: center;
+
+		img {
+	        margin: 15px 0 25px;
+		}
+	}
+
+	select {
+	    padding: 10px;
+	    background-color: #fff;
+	    border-color: #fff;
+	    outline: 0;
+        width: 100%;
+	}
+	.gallery-caption {
+		display: none;
+	}
+}
+
+#colophon ul li.has-post-thumbnail .post-details {
+    padding-right: 100px;
+}
+
+.dark-version {	
+	#secondary .textwidget {
+		h1, h2, h3, h4, h5, h6 {
+			color: #fff;
+		}
+	}
+}
+
+.post-details {
+    display: table;
+    float: left;
+
+    .posted-on {
+    	margin-bottom: 10px;
+	    display: inline-block;
+	    font-weight: 600;
+    	font-size: 14px;
+    }
+
+    .post-title {
+	    line-height: 1.5;
+	    margin: 0;
+        font-weight: 600;
+	}
+}
+
+.post-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.widget_popular_posts ul li,
+.widget_latest_posts ul li {
+    position: relative;
+    margin-bottom: 45px;
+
+    span.posted-on a {
+    	color: #929292;
+
+    	&:hover,
+	    &:focus {
+	    	color: $color_theme-color;
+	    }
+    }
+}
+
+.dark-version {
+	#secondary {
+		background-color: #1b1b1b;
+
+		.widget-title {
+			color: #fff;
+		    border-bottom: 1px solid rgba(255, 255, 255, 0.20);
+		    padding-bottom: 28px;
+		}
+
+		.widget_popular_posts ul li,
+		.widget_latest_posts ul li {
+		    span.posted-on a {
+		    	color: rgba(255, 255, 255, 0.50);
+
+		    	&:hover,
+			    &:focus {
+			    	color: $color_theme-color;
+			    }
+		    }
+		}
+	}
+}
+
+.lite-version #secondary ul a {
+	color: #2e2e2e;
+
+	&:hover,
+	&:focus {
+		color: $color_theme-color;
+	}
+}
+
+.lite-version #secondary .widget_popular_posts ul li span.posted-on a, 
+.lite-version #secondary .widget_latest_posts ul li span.posted-on a {
+	color: #929292;
+
+	&:hover,
+	&:focus {
+		color: $color_theme-color;
+	}
+}
+#secondary .tagcloud a {
+	color: #2e2e2e;
+	border-color: #2e2e2e;
+}
+.tagcloud a {
+    color: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 3px 10px;
+    font-size: 14px !important;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+#secondary .tagcloud a:hover,
+#secondary .tagcloud a:focus,
+.tagcloud a:hover,
+.tagcloud a:focus {
+	color: $color_theme-color;
+	border-color: $color_theme-color;
+}

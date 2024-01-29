@@ -1,0 +1,84 @@
+#counter {
+    background-color: #efefef;
+
+    .hentry {
+    	text-align: center;
+	    padding: 14px 5px 21px 5px;
+	    margin-bottom: 35px;
+
+    	.statwrap {
+		    .stat-count {
+			    font-size: 52px;
+			}
+
+			h5 {
+				font-weight: $font__regular;
+				text-transform: uppercase;
+			    color: #000;
+			    margin: 0;
+			}
+		}
+    }
+
+    .hentry:nth-child(odd) {
+    	border-right: 1px solid #d8d8d8;
+    }
+
+    .col-2 .hentry,
+    .col-3 .hentry,
+    .col-4 .hentry {
+    	float: left;
+    }
+
+    .col-1 .hentry {
+    	border-right: none;
+    }
+
+    .col-2 .hentry {
+    	width: 50%;
+    }
+
+    .col-2 .hentry:nth-child(2n+1),
+    .col-4 .hentry:nth-child(2n+1) {
+    	clear: left;
+    }
+
+	.col-1 .hentry:last-child,
+    .col-2 .hentry:nth-last-child(-n+2),
+    .col-3 .hentry:last-child,
+    .col-4 .hentry:nth-last-child(-n+2) {
+    	margin-bottom: 0;
+    }
+
+    .col-3 .hentry {
+    	width: 100%;
+    	border-right: none;
+    }
+
+    .col-4 .hentry {
+    	width: 50%;
+    }
+}
+
+.dark-version #counter {
+    background-color: #1b1b1b;
+
+    .hentry {
+        .statwrap {
+            .stat-count {
+                color: #fff;
+            }
+
+            h5 {
+                color: #fff;
+                opacity: 0.5;
+            }
+        }
+    }
+
+    .col-2 .hentry,
+    .col-3 .hentry,
+    .col-4 .hentry {
+        border-right-color: rgba(255, 255, 255, 0.20);
+    }
+}

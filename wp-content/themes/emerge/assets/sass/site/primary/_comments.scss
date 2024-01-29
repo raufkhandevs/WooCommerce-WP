@@ -1,0 +1,136 @@
+.comment-content a {
+	word-wrap: break-word;
+}
+.bypostauthor {
+	display: block;
+}
+span.says {
+    display: none;
+}
+#comments {
+	margin-top: 50px;
+
+	.comments-title {
+		margin-bottom: 50px;
+	    font-size: 32px;
+	}
+	ol {
+		padding-left: 0;
+		margin-left: 0;
+		list-style: none;
+	}
+	ol.comment-list {
+		margin-bottom: 50px;
+
+		> li {
+			margin-bottom: 2.5em;
+		}
+
+		.comment-meta .comment-author img {
+			float: left;
+			margin-right: 20px;
+		}
+
+		ol.children {
+			padding: 2.5em 0 0.5em 3.5em;
+		}
+
+		b.fn {
+			font-size: 22px;
+			font-weight: 400;
+			display: table;
+			line-height: 1;
+    		margin-bottom: 7px;
+		}
+
+		.comment-content p {
+		    margin-bottom: 7px;
+		}
+
+		.comment-metadata {
+			display: table;
+
+		 	a {
+				font-weight: bold;
+			}
+		}
+
+		.reply a {
+			text-decoration: underline;
+			text-transform: uppercase;
+			font-family: "Raleway", sans-serif;
+			font-weight: 600;
+
+			&:hover,
+			&:focus {
+				text-decoration: none;
+				color: $color_theme-color;
+			}
+		}
+	}
+
+	#respond {
+		#reply-title {
+	    	font-size: 32px;
+			color: #fff;
+			margin-bottom: 30px;
+		}
+
+		form {
+			background-color: #efefef;
+			padding: 20px 30px;
+
+			input,
+			textarea {
+				border: none;
+			}
+
+			.form-submit {
+			    text-align: center;
+
+			    input[type="submit"] {
+					background-color: $color_theme-color;
+					color: #fff;
+					min-width: 154px;
+					@include transition;
+
+					&:hover,
+					&:focus {
+						background-color: #000;
+					}
+				}
+			}
+		}
+	}
+}
+
+.dark-version #comments .fn,
+.dark-version #comments .fn a,
+.dark-version #comments .comments-title,
+.dark-version #respond input,
+.dark-version #respond textarea,
+.dark-version #comments .comment-metadata a {
+	color: #fff;
+}
+
+.dark-version #comments input,
+.dark-version #comments textarea {
+	background-color: #353535;
+	color: #fff;
+}
+
+.dark-version #comments #respond form label {
+    color: #fff;
+    opacity: 0.5;
+}
+.dark-version #comments #respond form {
+    background-color: #1b1b1b;
+}
+
+#comments .fn a,
+#comments .comment-metadata a {
+	&:hover,
+	&:focus {
+		color: $color_theme-color;
+	}
+}

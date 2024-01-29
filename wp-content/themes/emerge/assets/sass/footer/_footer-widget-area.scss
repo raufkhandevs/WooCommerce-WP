@@ -1,0 +1,83 @@
+.footer-widget-area {
+	padding: 63px 0;
+	background-color: $color_background_footer-widgets;
+    color: rgba(255, 255, 255, 0.50);
+    line-height: 2.2;
+    border-top: 1px solid rgba(255, 255, 255, 0.20);
+
+	.hentry {
+		margin-bottom: 42px;
+
+		.widget-title {
+		    color: #fff;
+		}
+
+		ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+
+			li {
+				color: rgba(255, 255, 255, 0.50);
+				margin-bottom: 10px;
+
+				a {
+					color: rgba(255, 255, 255, 0.50);
+
+					&:hover,
+					&:focus {
+						color: $color_theme-color;
+					}
+				}
+			}
+
+			li:last-child {
+				margin-bottom: 0;
+			}
+		}
+
+		.widget_archive {
+			li {
+				text-align: right;
+
+				a {
+					float: left;
+				}
+			}
+		}
+
+		.search-form button.search-submit {
+		    background-color: $color_theme-color;
+		    border-color: $color_theme-color;
+		}
+
+		select {
+		    background-color: #000;
+		    border-color: #666;
+		    padding: 10px;
+		    outline: 0;
+		}
+
+		.gallery-caption {
+			display: none;
+		}
+	}
+
+	.hentry:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.footer-widget-area.col-1 {
+	.hentry {
+		text-align: center;
+
+		.widget_archive li {
+			text-align: center;
+
+			a {
+				float: none;
+			}
+		}
+	}
+}
